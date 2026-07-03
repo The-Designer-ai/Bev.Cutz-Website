@@ -7,6 +7,8 @@ import { VideoCarousel } from "@/components/VideoCarousel";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { getTransformationVideos } from "@/lib/gallery";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const transformationVideos = getTransformationVideos();
 
